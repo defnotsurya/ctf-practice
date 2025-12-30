@@ -15,12 +15,10 @@ Now we know the values for each parameter, now need to send a request
 ## Python
 I used python to send a request using the following
 ```python
-import requests
-
-url = "http://example.com"
-
-response = requests.get(url)
-print(response.text)
+import requests url = "http://165.227.106.113/post.php"
+d = {"username": "admin", "password": "71urlkufpsdnlkadsf"}
+r = requests.post(url, data = d)
+print(r.text)
 ```
 ## Conclusion
 
