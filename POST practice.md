@@ -13,21 +13,16 @@ There is nothing else on the page, but looking at the source will give you the c
 Now we know the values for each parameter, now need to send a request
 
 ## Python
-I used python to send a request using the following 
-
+I used python to send a request using the following
+```python
 import requests
 
-url = "http://165.227.106.113/post.php"
+url = "http://example.com"
 
-data = {
-    "username": "admin",
-    "password": "71urlkufpsdnlkadsf"
-}
-
-response = requests.post(url, data=data)
+response = requests.get(url)
 print(response.text)
-
-Conclusion
+---
+# Conclusion
 
 This challenge demonstrates that authentication depends on backend request handling, not the frontend interface.
 Even when a login page is defaced or removed, manually crafting HTTP POST requests can still allow authentication if the backend logic remains intact.
