@@ -20,5 +20,9 @@ d = {"username": "admin", "password": "71urlkufpsdnlkadsf"}
 r = requests.post(url, data = d)
 print(r.text)
 
-This challenge was fairly easy learning how POST requests work and how to use python to send the request.
 
+Conclusion
+
+This challenge demonstrates that authentication depends on backend request handling rather than the frontend interface.
+Even when a login page is defaced or removed, manually crafting HTTP requests can still allow authentication if the backend logic is still there.
+This challenge was fairly easy, learning how POST requests work and how to use python to send the request.
