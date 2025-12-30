@@ -22,7 +22,5 @@ print(r.text)
 ```
 ## Conclusion
 
-This challenge demonstrates that authentication depends on backend request handling, not the frontend interface.
-Even when a login page is defaced or removed, manually crafting HTTP POST requests can still allow authentication if the backend logic remains intact.
-
-This was a straightforward challenge that reinforced how POST requests work and how Python can be used to interact with web applications.
+This challenge demonstrates that authentication depends on backend request handling rather than the frontend interface. Even when a login page is defaced or removed, manually sending an HTTP requests can still allow authentication if the backend logic is still there. 
+This challenge was fairly easy, learning how POST requests work and how to use python to send the request.
