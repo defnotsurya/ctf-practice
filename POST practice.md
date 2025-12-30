@@ -22,7 +22,7 @@ url = "http://example.com"
 response = requests.get(url)
 print(response.text)
 ```
-# Conclusion
+## Conclusion
 
 This challenge demonstrates that authentication depends on backend request handling, not the frontend interface.
 Even when a login page is defaced or removed, manually crafting HTTP POST requests can still allow authentication if the backend logic remains intact.
