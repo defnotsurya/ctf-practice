@@ -14,6 +14,9 @@ Now we know the values for each parameter, now need to send a request
 
 ## Python
 I used python to send a request using the following 
+
+```python
+# code here
 import requests
 url = "http://165.227.106.113/post.php"
 d = {"username": "admin", "password": "71urlkufpsdnlkadsf"}
