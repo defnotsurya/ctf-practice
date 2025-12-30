@@ -21,7 +21,7 @@ url = "http://example.com"
 
 response = requests.get(url)
 print(response.text)
----
+```
 # Conclusion
 
 This challenge demonstrates that authentication depends on backend request handling, not the frontend interface.
