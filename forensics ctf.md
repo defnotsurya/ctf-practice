@@ -6,7 +6,7 @@ Link - https://ctflearn.com/challenge/97
 Clicking the link brings to a mega file download, downloading an png file of an Americas Got Talent contestant.
 
 ## Solving
-This was similar to a CTF I had solved in school, so I had a decent idea of what to do. I used `binwalk` to extract the png further to see if there were any hidden files.
+This was similar to a CTF I had solved in school, so I had a decent idea of what to do. I used `binwalk` to extract the png to see if there were any hidden files.
 
 using binwalk, I extracted the AGT.png file and found this
 
