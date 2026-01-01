@@ -57,6 +57,11 @@ I kept seeing the file I Warned You.jpeg, and assumed that the flag had somethin
 
 <img width="376" height="40" alt="Screenshot 2025-12-31 180621" src="https://github.com/user-attachments/assets/9f567c12-edae-4df4-88d7-1a5f8c23aa25" />
 
+```
+$ strings I\ Warned\ You.jpeg | grep -i "CTF"
+ABCTF{Du$t1nS_D0jo}1r
+```
+
 ## Conclusion
 This ctf was a little confusing for me because of the lack of clues and context, but the overall steps needed to find the flag were not complicated.
 
