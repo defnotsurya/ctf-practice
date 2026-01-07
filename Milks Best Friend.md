@@ -4,7 +4,7 @@ There's nothing I love more than oreos, lions, and winning. https://mega.nz/#!DC
 
 Link - https://ctflearn.com/challenge/195
 
-The problem has a link to a mega download file. The download is just a file with an image of an orea labled oreo.jpg 
+The problem has a link to a mega download file. The download is just a file with an image of an oreo labeled oreo.jpg 
 
 ## Solving
 This ctf was similar to ones that I have done before, so I already knew what steps I needed to take in order to find the flag. After navigating the the download directory in bash, I used `binwalk` to extract any embedded files
@@ -18,7 +18,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 --------------------------------------------------------------------------------
 9515          0x252B          RAR archive data, version 4.x, first volume type: MAIN_HEAD
 ```
-Going into the folder of the extracted image, there are three files to be found. A .rar file, a text file that contatins the message "This is not the flag you are looking for.", and lastly another jpg of two oreos. I didn't know what do to with the .rar file so I used `binwalk` again on the jpg. 
+Going into the folder of the extracted image, there are three files to be found. A .rar file, a text file that contains the message "This is not the flag you are looking for.", and lastly another jpg of two oreos. I did not have unrar installed so I did not do anything with the .rar file. I went and used `binwalk` again on the jpg. 
 
 <img width="161" height="28" alt="image" src="https://github.com/user-attachments/assets/e07b63ac-7bcb-470d-a542-33651c9d9169" />
 
