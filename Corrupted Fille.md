@@ -25,7 +25,9 @@ After editing the file in HxD the gif is finally openable.
 The gif contains a message to decode presumably of the key, but it was too hard to read in .gif format so I used an online .gif to .jpg converter. (https://ezgif.com)
 
 After looking at each image in the gif, the text looks to be in base64 so I used CyberChef to decode it.
+
 <img width="198" height="61" alt="Screenshot 2026-01-09 154801" src="https://github.com/user-attachments/assets/f0ee57f7-5fd0-4c55-afaa-c321c603da71" />
+
 
 <img width="136" height="68" alt="Screenshot 2026-01-09 154807" src="https://github.com/user-attachments/assets/82372a0d-0fd4-4bb6-a908-abb1d28b45f7" />
 
