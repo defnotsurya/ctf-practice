@@ -1,4 +1,4 @@
-# ctflearn - Corrupted File (hard
+# ctflearn - Corrupted File (hard)
 ## Problem
 Help! I can't open this file. Something to do with the file header… Whatever that is. https://mega.nz/#!aKwGFARR!rS60DdUh8-jHMac572TSsdsANClqEsl9PD2sGl-SyDk
 
