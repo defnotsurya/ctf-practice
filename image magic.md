@@ -38,7 +38,7 @@ After looking into it more I had to reshape the column order since that was what
 
 `fixed = flat.reshape((orig_height, orig_width, 3), order='F')`
 
-T
+This reshaped the columns of the image and undid the stacking
 
 
 
