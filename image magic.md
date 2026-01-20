@@ -17,7 +17,7 @@ The first thing I did was load the image using PIL and numpy to inspect the curr
 from PIL import Image
 import numpy as np
 
-img = Image.open("out copy.jpg")
+img = Image.open(r"C:\Users\crazy\Downloads\out copy.jpg")
 pixels = np.array(img)
 print(pixels.shape)
 ```
@@ -39,6 +39,18 @@ After looking into it more I had to reshape the column order since that was what
 `fixed = flat.reshape((orig_height, orig_width, 3), order='F')`
 
 This reshaped the columns of the image and undid the stacking
+```
+fixed_img = Image.fromarray(fixed.astype(np.uint8))
+```
+The last changes are to convert the numpy array back to a pillows image.
+```
+fixed_img.save(r"C:\Users\crazy\Downloads\outcopy fixed.jpg")
+```
+![recovered](https://github.com/user-attachments/assets/76102b4f-bc6a-483b-8d48-bb6dd5cb22f0)
+
+## Conclusion
+Doing this ctf taught me a lot of skills and taught me about a new python library that I had not used before. This was quite difficult to figure out since I did not have any experience with these tools before, but the hints from the ctf instructions as well as comments on the page helped a lot to put me on the right track in order to be able to solve this.
+
 
 
 
